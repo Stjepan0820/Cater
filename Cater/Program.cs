@@ -16,7 +16,11 @@ namespace Cater
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            FrmLogin f1 = new FrmLogin();
+            if (f1.ShowDialog()==DialogResult.OK)
+            {
+                Application.Run(new FrmMain());
+            }
         }
     }
 }
