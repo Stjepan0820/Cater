@@ -11,6 +11,35 @@ namespace Cater.BLL
     public class MemberInfoBLL
     {
         MemberInfoDAL dal = new MemberInfoDAL();
+        /// <summary>
+        /// 新增或修改会员信息
+        /// </summary>
+        /// <param name="mem">会员对象</param>
+        /// <param name="temp">1：新增|2：修改</param>
+        /// <returns>成功还是失败</returns>
+        public bool SaveMemmberInfo(MemberInfo mem,int temp)
+        {
+            int r = -1;
+            if (temp==1)
+            {
+                r = dal.AddMemmberInfo(mem);
+            }
+            else if (temp==2)
+            {
+                r = dal.UpdateMemmberInfo(mem);
+            }
+            return r > 0;
+        }
+
+
+
+
+
+
+
+
+
+
 
         /// <summary>
         /// 根据会员的id查询该会员信息

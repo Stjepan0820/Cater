@@ -12,7 +12,7 @@ namespace Cater.Model
         public string MemberName { get; set; }
         public string MemberMobilePhone { get; set; }
         public string MemberAddress { get; set; }
-        public int MemberType { get; set; }
+        public int MemType { get; set; }
         public string MemberGender { get; set; }
         public decimal MemberDiscount { get; set; }
         public decimal MemberMoney { get; set; }

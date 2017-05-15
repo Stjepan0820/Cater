@@ -229,7 +229,7 @@
             // 
             // Column4
             // 
-            this.Column4.DataPropertyName = "MemberType";
+            this.Column4.DataPropertyName = "MemType";
             this.Column4.HeaderText = "会员等级";
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
@@ -292,7 +292,7 @@
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMember";
-            this.Text = "FrmMember";
+            this.Text = "会员管理";
             this.Load += new System.EventHandler(this.FrmMember_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
