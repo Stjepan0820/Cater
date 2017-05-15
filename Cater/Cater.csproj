@@ -55,6 +55,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmChangeMemmber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangeMemmber.Designer.cs">
+      <DependentUpon>FrmChangeMemmber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEventArgs.cs" />
     <Compile Include="Frmlogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,10 +74,25 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMember.Designer.cs">
+      <DependentUpon>FrmMember.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmChangeMemmber.resx">
+      <DependentUpon>FrmChangeMemmber.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frmlogin.resx">
       <DependentUpon>Frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMember.resx">
+      <DependentUpon>FrmMember.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -16,5 +16,11 @@ namespace Cater
         {
             InitializeComponent();
         }
+
+        private void btnMemmber_Click(object sender, EventArgs e)
+        {
+            FrmMember f = new FrmMember();
+            f.ShowDialog();
+        }
     }
 }
