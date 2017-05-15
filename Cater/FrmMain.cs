@@ -22,5 +22,11 @@ namespace Cater
             FrmMember f = new FrmMember();
             f.ShowDialog();
         }
+
+        private void btnCategory_Click(object sender, EventArgs e)
+        {
+            FrmCategory f = new FrmCategory();
+            f.ShowDialog();
+        }
     }
 }

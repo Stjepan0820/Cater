@@ -51,8 +51,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoryInfoDAL.cs" />
     <Compile Include="MemberInfoDAL.cs" />
     <Compile Include="MemmberTypeDALL.cs" />
+    <Compile Include="ProductInfoDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlHelperSqlite.cs" />
     <Compile Include="UserInfoDAL.cs" />

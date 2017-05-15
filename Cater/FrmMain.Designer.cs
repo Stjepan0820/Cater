@@ -506,6 +506,7 @@
             this.btnCategory.Size = new System.Drawing.Size(98, 87);
             this.btnCategory.TabIndex = 15;
             this.btnCategory.UseVisualStyleBackColor = true;
+            this.btnCategory.Click += new System.EventHandler(this.btnCategory_Click);
             // 
             // menuStrip1
             // 
