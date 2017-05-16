@@ -12,6 +12,49 @@ namespace Cater.BLL
     {
         CategoryInfoDAL dal = new CategoryInfoDAL();
 
+        /// <summary>
+        /// 新增或修改商品类别信息
+        /// </summary>
+        /// <param name="ct">商品类别对象</param>
+        /// <param name="temp">标识1----新增,2----修改</param>
+        /// <returns>成功还是失败</returns>
+        public bool SaveCategoryInfo(CategoryInfo ct, int temp)
+        {
+            int r = 1;
+            if (temp == 1)
+            {
+                r = dal.AddCategoryInfo(ct);
+            }
+            else if (temp==2)
+            {
+                r = dal.UpdateCategoryInfo(ct);
+            }
+            return r > 0;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         /// <summary>
@@ -23,10 +66,10 @@ namespace Cater.BLL
         {
             return dal.GetCategoryInfoCatId(catId);
         }
-
+        /// <summary>
         /// 根据删除标识查询所有商品类别信息
         /// </summary>
-        /// <param name="delFlag">删除标识</param>
+        /// <param name="delFlag"></param>
         /// <returns></returns>
         public List<CategoryInfo> GetAllCategoryInfoByDelFlag(int delFlag)
         {

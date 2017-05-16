@@ -76,6 +76,7 @@
             this.btnAddCategory.TabIndex = 62;
             this.btnAddCategory.Text = "添加商品类别";
             this.btnAddCategory.UseVisualStyleBackColor = true;
+            this.btnAddCategory.Click += new System.EventHandler(this.btnAddCategory_Click);
             // 
             // Column4
             // 
@@ -92,6 +93,7 @@
             this.btnUpdateCategory.TabIndex = 61;
             this.btnUpdateCategory.Text = "修改商品类别";
             this.btnUpdateCategory.UseVisualStyleBackColor = true;
+            this.btnUpdateCategory.Click += new System.EventHandler(this.btnUpdateCategory_Click);
             // 
             // dataGridViewTextBoxColumn4
             // 
@@ -115,6 +117,7 @@
             this.cmbCategory.Name = "cmbCategory";
             this.cmbCategory.Size = new System.Drawing.Size(121, 20);
             this.cmbCategory.TabIndex = 63;
+            this.cmbCategory.SelectedIndexChanged += new System.EventHandler(this.cmbCategory_SelectedIndexChanged);
             // 
             // Column3
             // 
@@ -138,6 +141,7 @@
             this.btnDeletePro.TabIndex = 68;
             this.btnDeletePro.Text = "删除产品";
             this.btnDeletePro.UseVisualStyleBackColor = true;
+            this.btnDeletePro.Click += new System.EventHandler(this.btnDeletePro_Click);
             // 
             // label2
             // 
@@ -172,6 +176,7 @@
             this.btnUpdatePro.TabIndex = 69;
             this.btnUpdatePro.Text = "修改产品";
             this.btnUpdatePro.UseVisualStyleBackColor = true;
+            this.btnUpdatePro.Click += new System.EventHandler(this.btnUpdatePro_Click);
             // 
             // dataGridViewTextBoxColumn2
             // 
@@ -277,6 +282,7 @@
             this.btnAddPro.TabIndex = 70;
             this.btnAddPro.Text = "增加产品";
             this.btnAddPro.UseVisualStyleBackColor = true;
+            this.btnAddPro.Click += new System.EventHandler(this.btnAddPro_Click);
             // 
             // dgvCategoryInfo
             // 

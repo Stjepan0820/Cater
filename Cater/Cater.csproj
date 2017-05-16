@@ -61,11 +61,23 @@
     <Compile Include="FrmCategory.Designer.cs">
       <DependentUpon>FrmCategory.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmChangeCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangeCategory.Designer.cs">
+      <DependentUpon>FrmChangeCategory.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmChangeMemmber.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmChangeMemmber.Designer.cs">
       <DependentUpon>FrmChangeMemmber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangeProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangeProduct.Designer.cs">
+      <DependentUpon>FrmChangeProduct.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmEventArgs.cs" />
     <Compile Include="Frmlogin.cs">
@@ -91,8 +103,14 @@
     <EmbeddedResource Include="FrmCategory.resx">
       <DependentUpon>FrmCategory.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangeCategory.resx">
+      <DependentUpon>FrmChangeCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmChangeMemmber.resx">
       <DependentUpon>FrmChangeMemmber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangeProduct.resx">
+      <DependentUpon>FrmChangeProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frmlogin.resx">
       <DependentUpon>Frmlogin.cs</DependentUpon>
